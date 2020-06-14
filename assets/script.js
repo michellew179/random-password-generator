@@ -13,6 +13,8 @@ function generatePassword() {
     alert('You did not meet the criteria');
     passwordLength();
   }
+  //confirm user knows parameters of the following...
+  var confirmCriteria = confirm('You must select at least one of the following criteria...');
   //generates user criteria
   var useUpperCase = confirm('Would you like to use upper case letters?');
   var useLowerCase = confirm('Would you like to use lower case letters?');
@@ -30,6 +32,7 @@ function generatePassword() {
   }
   //var to use below
   var useChar = '';
+  var criteriaError = ('You need to select at least one of the criteria.');
   //if correct password length given, and true/false for criteria
   if (passwordLength >= 8 && passwordLength <= 128) {
 
@@ -54,6 +57,7 @@ function generatePassword() {
     return password;
 
   }
+
 };
 
 
