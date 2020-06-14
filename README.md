@@ -8,3 +8,8 @@ https://github.com/michellew179/random-password-generator/
 
 https://michellew179.github.io/random-password-generator/
 
+Screenshot of website:
+
+![]assets/screenshot.png
+
+
