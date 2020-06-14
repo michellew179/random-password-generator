@@ -10,6 +10,6 @@ https://michellew179.github.io/random-password-generator/
 
 Screenshot of website:
 
-![]assets/screenshot.png
+![](assets/screenshot.png)
 
 
